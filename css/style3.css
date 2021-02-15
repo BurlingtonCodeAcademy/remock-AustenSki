@@ -1,0 +1,83 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+  color:  orange;
+}
+.undertitle{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+color: black;
+}
+.line{
+  margin-top:5%;
+  margin-left: 12%;
+  border: double;
+  border-style:groove;
+  justify-content: space-between;
+  display: flex;
+  width:75%;
+  align-items: center;
+}
+.container {
+  border: 3px transparent red ;
+  padding: 20px;
+  text-align: justify;
+}
+
+.main {
+  margin-left: 10%;
+  width: 40%;
+  float: left;
+  padding: 20px;
+  border: transparent red;
+}
+.main > .red {
+  color: red;
+}
+.main > h5 {
+  margin-right: 10%;
+  text-align: justify;
+}
+.mainR{
+  margin-right: 10%;
+  width: 35%;
+  float: left;
+  padding: 20px;
+  border: transparent red;
+}
+.mainR> p {
+  text-align: justify;
+   display: flex;
+}
+.image{
+    float: left;
+    margin-right: 25px ;
+    margin-bottom: 25px;
+}
+
+button {
+  background-color:  orange;
+  border: transparent;
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+
+}
+button:hover{
+  background-color: blue
+}
+button.contact{
+  font-size: 40px; 
+  background-color: teal;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  justify-content: center;
+  width: 100%;
+}
+button.contact:hover{
+  background-color: orange
+}

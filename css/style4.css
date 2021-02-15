@@ -1,0 +1,87 @@
+body{
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    color:  orange;
+  }
+  .undertitle{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+.line{
+  margin-top:5%;
+  margin-left: 12%;
+  border: double;
+  border-style:groove;
+  justify-content: space-between;
+  display: flex;
+  width:75%;
+  align-items: center;
+}
+    .container {
+        border: 3px transparent red ;
+        padding: 20px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+      }
+    
+    .main{
+       justify-content: center;
+        width: 50%;
+        padding: 20px;
+        border: transparent red;
+      }
+      .main> p {
+        text-align: justify;
+        border: transparent;
+        display: flex;
+        flex-direction: column;
+        
+      }
+      
+      button {
+        background-color:  orange;
+        border: transparent;
+        border-radius: 20px;
+        height: 40px;
+        color: white;
+      
+      }
+        
+      
+      .title{
+          display: flex;
+          justify-content: center;
+      }
+      .video{
+        display:flex;
+        justify-content: center;
+      }
+      button:hover{
+        background-color: blue
+      }
+      a:hover{
+        background-color: orange;
+      }
+      button.contact{
+        font-size: 40px; 
+        background-color: teal;
+        height: 300px;
+        text-align: center;
+        line-height: 300px;
+        justify-content: center;
+        width: 100%;
+      }
+      button.contact:hover{
+        background-color: orange
+      }
+      

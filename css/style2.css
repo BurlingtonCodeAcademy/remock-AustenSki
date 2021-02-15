@@ -1,0 +1,106 @@
+body{
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    color:  orange;
+}
+.undertitle{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+.line{
+  margin-top:5%;
+  margin-left: 12%;
+  border: double;
+  border-style:groove;
+  justify-content: space-between;
+  display: flex;
+  width:75%;
+  align-items: center;
+}
+.container {
+    border: 3px transparent red ;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .mainL {
+    margin-left: 10%;
+    width: 40%;
+    float: left;
+    padding: 20px;
+    border: transparent red;
+  }
+  .mainL > .red {
+    color: red;
+  }
+  .mainL > h5 {
+    margin-right: 10%;
+    
+  }
+  .main{
+    margin-right: 10%;
+    width: 35%;
+    float: right;
+    padding: 20px;
+    border: transparent red;
+  }
+  .main> p {
+    
+    margin-left: 10%;
+    border: transparent;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+    
+  }
+  
+  .image{
+      float: left;
+      margin-right: 25px ;
+    margin-bottom: 25px;
+  }
+ 
+  button {
+    background-color:  orange;
+    border: transparent;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+  
+  }
+  button:hover{
+    background-color: blue
+  }
+  .footcontainer > img{
+    font-size: 40px; 
+    background-color: teal;
+    
+    text-align: center;
+    line-height: 300px;
+    justify-content: center;
+   
+  }
+  
+  button.contact{
+    font-size: 40px; 
+    background-color: teal;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    justify-content: center;
+    width: 100%;
+  }
+  button.contact:hover{
+    background-color: orange
+  }
+  
