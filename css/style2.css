@@ -1,8 +1,9 @@
+/* CSS for full page */
 body{
   margin: 0%;
   overflow-x: hidden;
 }
-
+/* CSS for title */
 header{
     display: flex;
     flex-direction: row;
@@ -10,12 +11,14 @@ header{
     font-size: 50px;
     color:  orange;
 }
+/* CSS for under title */
 .undertitle{
     display: flex;
   flex-direction: row;
   justify-content: center;
   color: black;
 }
+/* CSS for all images and their paragraphs */
 .line{
   margin-top:5%;
   margin-left: 12%;
@@ -69,7 +72,7 @@ header{
       margin-right: 25px ;
     margin-bottom: 25px;
   }
- 
+ /* CSS for all buttons */
   button {
     background-color:  orange;
     border: transparent;

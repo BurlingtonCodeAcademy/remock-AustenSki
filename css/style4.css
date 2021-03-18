@@ -2,7 +2,7 @@ body{
   margin: 0%;
   overflow-x: hidden;
 }
-
+/* Title CSS */
 header {
     display: flex;
     flex-direction: row;
@@ -10,12 +10,14 @@ header {
     font-size: 50px;
     color:  orange;
   }
+  /* Under title CSS */
   .undertitle{
     display: flex;
   flex-direction: row;
   justify-content: center;
   color: black;
 }
+/* CSS for organizing imaged and their paragraphs */
 .line{
   margin-top:5%;
   margin-left: 12%;
@@ -48,24 +50,18 @@ header {
         
       }
       
-      button {
-        background-color:  orange;
-        border: transparent;
-        border-radius: 20px;
-        height: 40px;
-        color: white;
       
-      }
-        
       
       .title{
           display: flex;
           justify-content: center;
       }
+      /* CSS for the inserted video */
       .video{
         display:flex;
         justify-content: center;
       }
+      /* All button CSS */
       button:hover{
         background-color: blue
       }
@@ -84,4 +80,12 @@ header {
       button.contact:hover{
         background-color: orange
       }
+      button {
+        background-color:  orange;
+        border: transparent;
+        border-radius: 20px;
+        height: 40px;
+        color: white;
       
+      }
+        

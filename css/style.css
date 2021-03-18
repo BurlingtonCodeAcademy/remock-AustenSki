@@ -4,6 +4,7 @@ body{
   
   
 }
+/* CSS for main title */
 header {
   display: flex;
   flex-direction: row;
@@ -11,9 +12,11 @@ header {
   font-size: 50px;
   color:  orange;
 }
+/* Css for under title */
 h5.undertitle {
   text-align: center;
 }
+/* css for image row and their labels */
 #features {
   margin-top: 5%;
 }
@@ -46,6 +49,7 @@ h2{
   
 }
 
+/* Css for all text and images below quote bar */
 
 h3 {
   display: flex;
@@ -94,6 +98,22 @@ h4 {
   margin-right: 10%;
   display: flex;
 }
+.lines{
+  margin-top:5%;
+  margin-left: 12%;
+  border: double;
+  border-style:groove;
+  justify-content: space-between;
+  display: flex;
+  width:75%;
+  align-items: center;
+}
+.image{
+float: left;
+margin-bottom:25px;
+margin-right: 25px
+}
+/* css for all buttons on page */
 button {
   background-color:  orange;
   border: transparent;
@@ -106,22 +126,6 @@ button:hover{
   background-color: blue
 }
 
-
- .lines{
-    margin-top:5%;
-    margin-left: 12%;
-    border: double;
-    border-style:groove;
-    justify-content: space-between;
-    display: flex;
-    width:75%;
-    align-items: center;
-  }
-.image{
-  float: left;
-  margin-bottom:25px;
-  margin-right: 25px
-}
 button.contact{
   font-size: 40px; 
   background-color: teal;
